@@ -10,6 +10,6 @@ install:
 before_script:
   - chmod +x ./build.sh
 script:
-  - ./build.sh --confirm --silent   #< Build
+  - ./build.sh --confirm   #< Build
   - ./bin/phantomjs test/run-tests.js
 
